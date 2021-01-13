@@ -1,0 +1,116 @@
+2021-01-12 14:57:08,540 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 15:11:25,279 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 15:12:41,117 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\fccDjangoAdmin\__init__.py changed, reloading.
+2021-01-12 15:12:42,845 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 15:12:51,664 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 15:14:57,316 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 15:39:00,948 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\fccDjangoAdmin\urls.py changed, reloading.
+2021-01-12 15:39:02,840 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 15:39:36,846 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\models.py changed, reloading.
+2021-01-12 15:39:38,484 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 15:47:34,757 django.request 230 WARNING  Not Found: /
+2021-01-12 15:50:52,351 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 15:50:54,468 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 15:50:57,621 django.request 230 WARNING  Not Found: /
+2021-01-12 15:50:57,657 django.request 230 WARNING  Not Found: /
+2021-01-12 15:55:48,632 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 15:55:50,624 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:03:11,738 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:03:33,470 django.request 230 WARNING  Not Found: /favicon.ico
+2021-01-12 16:03:34,190 django.request 230 WARNING  Not Found: /favicon.ico
+2021-01-12 16:05:00,411 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:05:02,193 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:10:15,485 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:12:40,574 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:12:42,247 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:14:27,420 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:15:58,778 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:16:00,550 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:16:07,817 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:16:07,828 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:17:09,698 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:17:11,456 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:17:15,955 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:17:15,966 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:17:18,042 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:17:18,053 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:17:19,241 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:17:19,252 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:17:20,105 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:17:20,116 interview.admin 95 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:35,362 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:18:37,037 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:18:41,182 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:41,193 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:43,595 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:43,605 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:44,625 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:44,635 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:45,234 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:45,243 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:45,651 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:45,660 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:46,000 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:18:46,010 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:19:18,912 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:20:09,108 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:20:10,723 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:20:19,272 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:20:19,281 interview.admin 82 INFO     interviewer is in user's group for interviewer2
+2021-01-12 16:22:20,495 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:22:22,490 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:22:42,660 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:22:45,017 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:25:02,610 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:25:04,514 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:26:25,224 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:26:27,312 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:27:17,667 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:27:19,332 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:27:47,641 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:27:49,335 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:29:35,994 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 16:29:37,759 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:40:25,414 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
+2021-01-12 16:40:27,635 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:40:49,774 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:40:58,340 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
+2021-01-12 16:41:01,337 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:41:51,793 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 16:41:54,562 django.request 230 WARNING  Not Found: /
+2021-01-12 16:41:54,643 django.request 230 WARNING  Not Found: /
+2021-01-12 18:05:02,068 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 18:05:04,595 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 18:08:40,583 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 18:08:42,461 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 18:10:08,172 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 18:10:10,712 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 18:14:44,043 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 18:15:38,216 interview.admin 87 INFO     interviewer is in user's group for interviewer1
+2021-01-12 18:15:38,224 interview.admin 87 INFO     interviewer is in user's group for interviewer1
+2021-01-12 18:21:29,628 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 18:21:31,637 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 18:28:21,682 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-12 18:28:23,676 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-12 18:30:48,672 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 14:49:49,538 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 14:49:51,264 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 14:53:12,033 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 14:53:13,947 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 15:15:26,493 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
+2021-01-13 15:15:28,119 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 16:22:58,570 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 16:23:00,372 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 16:23:30,419 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 16:23:31,970 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 16:23:58,876 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 16:24:00,548 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 16:25:35,806 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 16:25:37,353 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 16:39:48,646 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 16:39:50,908 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 16:40:01,323 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 16:47:53,750 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
+2021-01-13 16:47:55,841 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 16:48:06,925 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
+2021-01-13 16:48:08,890 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
