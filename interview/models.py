@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 from jobs.models import DEGREE_TYPE
+from django.conf import settings
 
 # 第一轮面试结果
 FIRST_INTERVIEW_RESULT_TYPE = ((u'建议复试', u'建议复试'), (u'待定', u'待定'), (u'放弃', u'放弃'))
@@ -12,6 +13,11 @@ INTERVIEW_RESULT_TYPE = ((u'建议录用', u'建议录用'), (u'待定', u'待�
 
 # HR终面结论
 HR_SCORE_TYPE = (('S', 'S'), ('A', 'A'), ('B', 'B'), ('C', 'C'))
+
+
+# 让上传的文件路径动态地与user的名字有关
+def upload_to(instance, filename):
+    return '/'.join([settings.MEDIA_ROOT, instance.username, filename])
 
 
 class Candidate(models.Model):
@@ -25,6 +31,9 @@ class Candidate(models.Model):
     born_address = models.CharField(max_length=135, blank=True, verbose_name=u'生源地')
     gender = models.CharField(max_length=135, blank=True, verbose_name=u'性别')
     candidate_remark = models.CharField(max_length=135, blank=True, verbose_name=u'候选人信息备注')
+
+    # 简历
+    resume = models.FileField(verbose_name=u'附件简历', blank=True, null=True, upload_to=upload_to)
 
     # 学校与学历信息
     bachelor_school = models.CharField(max_length=135, blank=True, verbose_name=u'本科学校')

@@ -1,6 +1,7 @@
 import csv
 from django.contrib import admin, messages
 from django.db.models import Q
+from django.utils.safestring import mark_safe
 
 from interview.models import Candidate
 from django.http.response import HttpResponse
@@ -86,11 +87,20 @@ notify_interviewer_second.short_description = u'通知二面面试官'
 
 class CandidateAdmin(admin.ModelAdmin):
     exclude = ('userid', 'creator', 'created_date', 'modified_date')
+
+    # 表单展示字段
     list_display = (
-        'username', 'city', 'bachelor_school', 'first_score', 'first_result',
+        'username', 'get_resume', 'city', 'bachelor_school', 'first_score', 'first_result',
         'first_interviewer_user', 'second_result', 'second_interviewer_user',
         'hr_score', 'hr_result', 'hr_interviewer_user', 'last_editor'
     )
+
+    # 搜索字段
+    search_fields = ('username', 'phone', 'bachelor_school', 'city')
+
+    # 表单筛选字段
+    list_filter = ('city', 'first_result', 'second_result', 'hr_result', 'first_interviewer_user',
+                   'second_interviewer_user', 'hr_interviewer_user')
 
     # 对于表单数据可以操作action
     actions = (export_model_as_csv, notify_interviewer_first, notify_interviewer_second)
@@ -100,12 +110,15 @@ class CandidateAdmin(admin.ModelAdmin):
         opts = self.opts
         return request.user.has_perm("{}.{}".format(opts.app_label, "export"))
 
-    # 搜索字段
-    search_fields = ('username', 'phone', 'bachelor_school', 'city')
+    # 查看简历
+    def get_resume(self, obj):
+        if not obj.resume:
+            return None
+        return mark_safe(u'<a href="/resume/%s" target="_blank">%s</a' % (obj.id, str(obj.resume).split('/')[-1]))
 
-    # 表单展示字段
-    list_filter = ('city', 'first_result', 'second_result', 'hr_result', 'first_interviewer_user',
-                   'second_interviewer_user', 'hr_interviewer_user')
+    # def upload_resume(self, obj):
+    #     return mark_safe(u'<form action="/upload/resume/%s/" method="post" enctype="multipart/form-data"><input '
+    #                      u'type="file" name="resume"/><input type="submit"/></form>' % obj.id)
 
     # 对于数据详情页对于不同用户展示不同内容
     def get_fieldsets(self, request, obj=None):

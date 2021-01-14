@@ -114,3 +114,497 @@
 2021-01-13 16:47:55,841 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
 2021-01-13 16:48:06,925 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
 2021-01-13 16:48:08,890 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:03:16,601 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\models.py changed, reloading.
+2021-01-13 17:03:18,519 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:04:08,148 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 17:04:10,070 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:06:57,674 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\candidate_fields.py changed, reloading.
+2021-01-13 17:06:59,658 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:07:07,399 django.request 230 ERROR    Internal Server Error: /admin/interview/candidate/5/change/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\options.py", line 1656, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\options.py", line 1569, in _changeform_view
+    request, obj, change=not add, fields=flatten_fieldsets(fieldsets)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\utils.py", line 97, in flatten_fieldsets
+    for name, opts in fieldsets:
+ValueError: too many values to unpack (expected 2)
+2021-01-13 17:08:04,312 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\candidate_fields.py changed, reloading.
+2021-01-13 17:08:06,341 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:08:50,931 django.request 230 WARNING  Not Found: /Ñî±ó-²âÊÔ¹¤³ÌÊ¦¼òÀú.doc
+2021-01-13 17:09:41,487 django.request 230 WARNING  Not Found: /Ñî±ó-²âÊÔ¹¤³ÌÊ¦¼òÀú.doc
+2021-01-13 17:16:45,113 django.request 230 WARNING  Not Found: /Ñî±ó-²âÊÔ¹¤³ÌÊ¦¼òÀú.doc
+2021-01-13 17:23:07,107 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
+2021-01-13 17:23:09,071 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:23:49,880 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\models.py changed, reloading.
+2021-01-13 17:23:51,766 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:24:04,606 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\models.py changed, reloading.
+2021-01-13 17:24:06,655 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:26:49,111 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\models.py changed, reloading.
+2021-01-13 17:26:51,148 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:27:56,505 django.request 230 ERROR    Internal Server Error: /admin/interview/candidate/5/change/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\options.py", line 1656, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\options.py", line 1093, in save_model
+    obj.save()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\base.py", line 754, in save
+    force_update=force_update, update_fields=update_fields)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\base.py", line 792, in save_base
+    force_update, using, update_fields,
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\base.py", line 870, in _save_table
+    for f in non_pks]
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\base.py", line 870, in <listcomp>
+    for f in non_pks]
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\fields\files.py", line 307, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\fields\files.py", line 86, in save
+    name = self.field.generate_filename(self.instance, name)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\fields\files.py", line 322, in generate_filename
+    filename = self.upload_to(instance, filename)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\models.py", line 20, in upload_to
+    return '/'.join([settings.MEDIA_ROOT, instance.user_name, filename])
+AttributeError: 'Candidate' object has no attribute 'user_name'
+2021-01-13 17:28:37,281 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\models.py changed, reloading.
+2021-01-13 17:28:39,423 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:29:00,770 django.request 230 WARNING  Not Found: /upload/C:/Users/86181/Desktop/myword/ÄûÃÊ°à¿Î³Ì/fccDjangoAdmin/upload/ÀîĞ¡Áú/Ñî±ó-²âÊÔ¹¤³ÌÊ¦¼òÀú_ĞÂ.doc
+2021-01-13 17:35:05,940 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 17:35:08,040 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:36:40,726 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 17:36:42,566 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:38:39,993 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 17:38:42,012 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:49:11,889 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\fccDjangoAdmin\urls.py changed, reloading.
+2021-01-13 17:49:14,135 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:49:52,403 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 17:49:54,713 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:50:11,147 django.request 230 ERROR    Internal Server Error: /resume/5/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py", line 12, in read_resume
+    load_html = PyDocX.to_html(file_path)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\pydocx.py", line 13, in to_html
+    return PyDocXHTMLExporter(path_or_stream).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 211, in export
+    for result in super(PyDocXHTMLExporter, self).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 209, in <genexpr>
+    result.to_html() if isinstance(result, HtmlTag)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\base.py", line 110, in export
+    document = self.main_document_part.document
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 49, in document
+    self._document = self.load_document()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 53, in load_document
+    self._document = Document.load(self.root_element, container=self)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\models.py", line 280, in load
+    other=element.tag,
+pydocx.models.XmlRootElementMismatchException: Expected root element document but got themeManager instead
+2021-01-13 17:52:13,951 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:52:25,140 django.request 230 ERROR    Internal Server Error: /admin/interview/candidate/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\options.py", line 575, in get_field
+    return self.fields_map[field_name]
+KeyError: 'get_resume'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\utils.py", line 265, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\utils.py", line 296, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\options.py", line 577, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Candidate has no field named 'get_resume'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\base.py", line 33, in render
+    return super().render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 341, in result_list
+    'results': list(results(cl)),
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 314, in results
+    yield ResultList(form, items_for_result(cl, res, form))
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 308, in __init__
+    super().__init__(*items)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 233, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\utils.py", line 274, in lookup_field
+    value = attr(obj)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py", line 117, in get_resume
+    return mark_safe(u'<a href="/resume/%s" target="_blank">%s</a' % (obj.id, obj.resume.split('/')[-1]))
+AttributeError: 'FieldFile' object has no attribute 'split'
+2021-01-13 17:52:56,933 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 17:53:06,332 django.request 230 ERROR    Internal Server Error: /resume/5/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py", line 12, in read_resume
+    load_html = PyDocX.to_html(file_path)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\pydocx.py", line 13, in to_html
+    return PyDocXHTMLExporter(path_or_stream).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 211, in export
+    for result in super(PyDocXHTMLExporter, self).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 209, in <genexpr>
+    result.to_html() if isinstance(result, HtmlTag)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\base.py", line 110, in export
+    document = self.main_document_part.document
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 49, in document
+    self._document = self.load_document()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 53, in load_document
+    self._document = Document.load(self.root_element, container=self)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\models.py", line 280, in load
+    other=element.tag,
+pydocx.models.XmlRootElementMismatchException: Expected root element document but got themeManager instead
+2021-01-13 18:01:27,770 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 18:01:28,570 django.request 230 ERROR    Internal Server Error: /resume/5/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py", line 12, in read_resume
+    load_html = PyDocX.to_html(file_path)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\pydocx.py", line 13, in to_html
+    return PyDocXHTMLExporter(path_or_stream).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 211, in export
+    for result in super(PyDocXHTMLExporter, self).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 209, in <genexpr>
+    result.to_html() if isinstance(result, HtmlTag)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\base.py", line 110, in export
+    document = self.main_document_part.document
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 49, in document
+    self._document = self.load_document()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 53, in load_document
+    self._document = Document.load(self.root_element, container=self)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\models.py", line 280, in load
+    other=element.tag,
+pydocx.models.XmlRootElementMismatchException: Expected root element document but got themeManager instead
+2021-01-13 18:02:26,872 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 18:02:28,885 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 18:02:38,247 django.request 230 ERROR    Internal Server Error: /resume/5/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py", line 12, in read_resume
+    load_html = PyDocX.to_html(file_path)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\pydocx.py", line 13, in to_html
+    return PyDocXHTMLExporter(path_or_stream).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 211, in export
+    for result in super(PyDocXHTMLExporter, self).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 209, in <genexpr>
+    result.to_html() if isinstance(result, HtmlTag)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\base.py", line 110, in export
+    document = self.main_document_part.document
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 49, in document
+    self._document = self.load_document()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 53, in load_document
+    self._document = Document.load(self.root_element, container=self)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\models.py", line 280, in load
+    other=element.tag,
+pydocx.models.XmlRootElementMismatchException: Expected root element document but got themeManager instead
+2021-01-13 18:04:32,514 django.request 230 ERROR    Internal Server Error: /resume/5/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py", line 12, in read_resume
+    load_html = PyDocX.to_html(file_path)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\pydocx.py", line 13, in to_html
+    return PyDocXHTMLExporter(path_or_stream).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 211, in export
+    for result in super(PyDocXHTMLExporter, self).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 209, in <genexpr>
+    result.to_html() if isinstance(result, HtmlTag)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\base.py", line 110, in export
+    document = self.main_document_part.document
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 49, in document
+    self._document = self.load_document()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\openxml\packaging\main_document_part.py", line 53, in load_document
+    self._document = Document.load(self.root_element, container=self)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\models.py", line 280, in load
+    other=element.tag,
+pydocx.models.XmlRootElementMismatchException: Expected root element document but got themeManager instead
+2021-01-13 18:18:33,094 django.request 230 ERROR    Internal Server Error: /resume/4/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py", line 12, in read_resume
+    load_html = PyDocX.to_html(file_path)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\pydocx.py", line 13, in to_html
+    return PyDocXHTMLExporter(path_or_stream).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 211, in export
+    for result in super(PyDocXHTMLExporter, self).export()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\html.py", line 209, in <genexpr>
+    result.to_html() if isinstance(result, HtmlTag)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\pydocx\export\base.py", line 109, in export
+    raise MalformedDocxException
+pydocx.exceptions.MalformedDocxException
+2021-01-13 18:24:42,159 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 18:24:44,200 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 18:25:32,995 django.request 230 ERROR    Internal Server Error: /resume/5/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py", line 36, in read_resume
+    response['Content-Disposition'] = f"attachment; filename*=UTF-8''{escape_uri_path(instance.name)}"
+AttributeError: 'Candidate' object has no attribute 'name'
+2021-01-13 18:26:18,677 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 18:26:20,646 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 18:28:07,530 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 18:28:09,506 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 18:30:21,501 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 18:30:23,622 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 18:34:43,423 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 18:37:12,809 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 18:37:14,820 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 18:38:25,744 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 18:38:28,012 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 18:39:50,939 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 18:39:53,051 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 19:42:37,884 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 19:42:41,226 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 19:43:44,482 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 19:43:46,402 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 19:46:53,872 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py changed, reloading.
+2021-01-13 19:46:56,412 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 19:49:32,406 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 19:49:34,432 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 19:52:46,020 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 19:52:48,251 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 19:54:43,391 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 19:54:45,480 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 20:05:59,087 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 20:06:01,202 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 20:06:05,141 django.request 230 ERROR    Internal Server Error: /admin/interview/candidate/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\options.py", line 575, in get_field
+    return self.fields_map[field_name]
+KeyError: 'upload_resume'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\utils.py", line 265, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\utils.py", line 296, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\options.py", line 577, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Candidate has no field named 'upload_resume'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\base.py", line 33, in render
+    return super().render(context)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\template\library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 341, in result_list
+    'results': list(results(cl)),
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 314, in results
+    yield ResultList(form, items_for_result(cl, res, form))
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 308, in __init__
+    super().__init__(*items)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\templatetags\admin_list.py", line 233, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\contrib\admin\utils.py", line 274, in lookup_field
+    value = attr(obj)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py", line 121, in upload_resume
+    u'type="file" name="resume">%s<input type="submit"></form>' % (obj.id))
+TypeError: not enough arguments for format string
+2021-01-13 20:06:43,355 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 20:06:45,496 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 20:08:02,868 django.security.csrf 230 WARNING  Forbidden (CSRF token missing or incorrect.): /admin/interview/candidate/upload/resume/4/
+2021-01-13 20:08:25,046 django.security.csrf 230 WARNING  Forbidden (CSRF token missing or incorrect.): /admin/interview/candidate/upload/resume/4/
+2021-01-13 20:08:42,951 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 20:08:45,006 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 20:30:24,777 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-13 20:30:26,884 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 20:41:47,363 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-13 20:57:00,924 django.request 230 WARNING  Not Found: /favicon.ico
+2021-01-13 20:57:23,685 django.request 230 ERROR    Internal Server Error: /resume/add/
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'add'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\views.py", line 27, in read_resume
+    instance = Candidate.objects.get(pk=pk)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\query.py", line 418, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\sql\query.py", line 1380, in _add_q
+    split_subq=split_subq, check_filterable=check_filterable,
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\lib\site-packages\django\db\models\fields\__init__.py", line 1778, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got 'add'.
+2021-01-13 21:00:23,407 django.request 230 WARNING  Not Found: /favicon.ico

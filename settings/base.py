@@ -195,3 +195,8 @@ STATIC_URL = '/static/'
 
 # 钉钉群的 WEB_HOOK， 用于发送钉钉消息
 DINGTALK_WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=c193d8cdb74c87c9016dd307be8abdf9f62d34ff24d07bd002b4f3ba48eb8640"
+
+
+# MyProject.settings.py 里面设置MEDIA_ROOT and MEDIA_URL
+MEDIA_ROOT = os.path.join(BASE_DIR, 'upload/')
+MEDIA_URL = '/upload/'  # 这个是在浏览器上访问该上传文件的url的前缀

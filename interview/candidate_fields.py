@@ -12,7 +12,7 @@ default_fieldsets = (
                             ("second_interviewer_user", "second_remark"))}),
     ('第三轮面试记录', {'fields': (
     ("hr_score", "hr_responsibility", "hr_communication_ability"), ("hr_logic_ability", "hr_potential", "hr_stability"),
-    "hr_advantage", "hr_disadvantage", "hr_result", ("hr_interviewer_user", "hr_remark"))}),
+    "hr_advantage", "hr_disadvantage", "hr_result", ("hr_interviewer_user", "hr_remark", "resume"))}),
 )
 
 # 一面面试官需要展示的字段
