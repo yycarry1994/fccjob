@@ -608,3 +608,135 @@ Traceback (most recent call last):
     ) from e
 ValueError: Field 'id' expected a number but got 'add'.
 2021-01-13 21:00:23,407 django.request 230 WARNING  Not Found: /favicon.ico
+2021-01-14 14:48:34,679 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
+2021-01-14 14:48:37,531 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-14 14:50:36,275 interview.performance 13 INFO     0.3169984817504883 /admin/ {}
+2021-01-14 14:50:36,816 interview.performance 13 INFO     0.13499855995178223 /admin/jobs/job/ {}
+2021-01-14 14:50:36,909 interview.performance 13 INFO     0.037000417709350586 /admin/jsi18n/ {}
+2021-01-14 14:51:05,246 interview.performance 13 INFO     0.4510018825531006 /admin/interview/candidate/ {}
+2021-01-14 14:51:05,364 interview.performance 13 INFO     0.02899932861328125 /admin/jsi18n/ {}
+2021-01-14 14:51:13,197 interview.performance 13 INFO     0.08099961280822754 /admin/ {}
+2021-01-14 14:51:14,005 interview.performance 13 INFO     0.5180001258850098 /admin/interview/candidate/ {}
+2021-01-14 14:51:14,136 interview.performance 13 INFO     0.038001298904418945 /admin/jsi18n/ {}
+2021-01-15 14:29:14,099 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
+2021-01-15 14:31:13,550 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-15 14:35:39,488 interview.performance 13 INFO     0.10499954223632812 / {}
+2021-01-15 14:35:39,488 django.request 230 WARNING  Not Found: /
+2021-01-15 14:35:39,503 interview.performance 13 INFO     0.008999347686767578 / {}
+2021-01-15 14:35:39,504 django.request 230 WARNING  Not Found: /
+2021-01-15 14:53:53,240 interview.performance 13 INFO     1.8989970684051514 /admin/ {}
+2021-01-15 14:53:54,204 interview.performance 13 INFO     1.1540014743804932 /admin/interview/candidate/5/change/ {}
+2021-01-15 14:53:54,270 interview.performance 13 INFO     0.7780005931854248 /admin/interview/candidate/ {}
+2021-01-15 14:53:54,336 interview.performance 13 INFO     0.03099966049194336 /admin/jsi18n/ {}
+2021-01-15 15:26:50,256 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\performance.py changed, reloading.
+2021-01-15 15:26:52,587 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-15 15:29:01,212 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\performance.py changed, reloading.
+2021-01-15 15:29:03,365 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-15 15:34:31,852 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\performance.py changed, reloading.
+2021-01-15 15:34:34,373 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-15 15:36:14,677 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\performance.py changed, reloading.
+2021-01-15 15:36:16,847 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-15 15:36:46,967 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\performance.py changed, reloading.
+2021-01-15 15:36:49,302 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-15 15:45:51,176 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-15 15:46:15,465 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\base.py changed, reloading.
+2021-01-15 15:46:18,034 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-15 15:47:26,511 interview.performance 35 INFO     0.43900108337402344 /admin/ {}
+2021-01-15 15:47:27,478 interview.performance 35 INFO     0.6549985408782959 /admin/interview/candidate/ {}
+2021-01-15 15:47:27,547 interview.performance 35 INFO     0.03999948501586914 /admin/jsi18n/ {}
+2021-01-15 15:47:30,801 interview.performance 35 INFO     0.468001127243042 /admin/interview/candidate/2/change/ {}
+2021-01-15 15:47:30,869 interview.performance 35 INFO     0.028998374938964844 /admin/jsi18n/ {}
+2021-01-15 15:47:37,118 interview.performance 35 INFO     0.24199771881103516 /admin/jobs/job/ {}
+2021-01-15 15:47:37,179 interview.performance 35 INFO     0.035996437072753906 /admin/jsi18n/ {}
+2021-01-15 15:47:58,919 interview.performance 35 INFO     1.913011074066162 /admin/ {}
+2021-01-15 15:48:01,972 interview.performance 35 INFO     0.5329976081848145 /admin/interview/candidate/ {}
+2021-01-15 15:48:02,017 interview.performance 35 INFO     0.021999835968017578 /admin/jsi18n/ {}
+2021-01-18 10:24:11,981 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-18 10:24:37,422 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-18 10:25:36,025 interview.performance 35 INFO     0.005001544952392578 /admin {}
+2021-01-18 10:25:36,607 django.security.SuspiciousSession 131 WARNING  Session data corrupted
+2021-01-18 10:25:36,647 interview.performance 35 INFO     0.6129992008209229 /admin/ {}
+2021-01-18 10:25:36,672 django.security.SuspiciousSession 131 WARNING  Session data corrupted
+2021-01-18 10:25:36,674 django.security.SuspiciousSession 131 WARNING  Session data corrupted
+2021-01-18 10:25:36,677 interview.performance 35 INFO     0.021999120712280273 /admin/ {}
+2021-01-18 10:25:36,714 interview.performance 35 INFO     0.054015159606933594 /admin/login/ {'next': '/admin/'}
+2021-01-18 10:25:36,739 django.security.SuspiciousSession 131 WARNING  Session data corrupted
+2021-01-18 10:25:36,770 interview.performance 35 INFO     0.04900169372558594 /admin/login/ {'next': '/admin/'}
+2021-01-18 10:25:37,184 interview.performance 35 INFO     0.07599687576293945 /favicon.ico {}
+2021-01-18 10:25:37,185 django.request 230 WARNING  Not Found: /favicon.ico
+2021-01-18 10:25:37,202 django.security.SuspiciousSession 131 WARNING  Session data corrupted
+2021-01-18 10:25:38,529 django.security.SuspiciousSession 131 WARNING  Session data corrupted
+2021-01-18 10:25:44,989 interview.performance 35 INFO     6.4800026416778564 /admin/login/ {'next': '/admin/'}
+2021-01-18 10:25:45,773 interview.performance 35 INFO     0.7739872932434082 /admin/ {}
+2021-01-18 11:43:36,024 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-18 11:43:38,241 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 16:14:28,781 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\local.py changed, reloading.
+2021-01-20 16:14:31,558 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 16:15:20,025 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\fccDjangoAdmin\__init__.py changed, reloading.
+2021-01-20 16:15:22,464 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 16:16:44,292 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-20 16:16:46,623 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 16:19:44,444 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\fccDjangoAdmin\__init__.py changed, reloading.
+2021-01-20 16:19:46,817 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 16:21:13,006 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\venv\Lib\site-packages\tornado\tcpserver.py changed, reloading.
+2021-01-20 16:21:16,165 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 16:23:13,989 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\settings\local.py changed, reloading.
+2021-01-20 16:23:16,391 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 16:31:45,687 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\fccDjangoAdmin\celery.py changed, reloading.
+2021-01-20 16:31:48,813 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 16:33:51,665 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 16:33:53,569 interview.performance 35 INFO     0.06200051307678223 / {}
+2021-01-20 16:33:53,570 django.request 230 WARNING  Not Found: /
+2021-01-20 16:33:53,815 interview.performance 35 INFO     0.00999903678894043 / {}
+2021-01-20 16:33:53,817 django.request 230 WARNING  Not Found: /
+2021-01-20 16:34:01,383 interview.performance 35 INFO     0.7719993591308594 /admin/ {}
+2021-01-20 16:34:02,364 interview.performance 35 INFO     0.5369975566864014 /admin/ {}
+2021-01-20 16:34:05,431 interview.performance 35 INFO     0.8140006065368652 /admin/interview/candidate/ {}
+2021-01-20 16:34:05,596 interview.performance 35 INFO     0.06499862670898438 /admin/jsi18n/ {}
+2021-01-20 16:34:09,840 interview.performance 35 INFO     0.27899742126464844 /admin/interview/candidate/ {}
+2021-01-20 16:34:10,402 interview.performance 35 INFO     0.545001745223999 /admin/interview/candidate/ {}
+2021-01-20 16:34:10,481 interview.performance 35 INFO     0.029999732971191406 /admin/jsi18n/ {}
+2021-01-20 16:40:00,333 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\fccDjangoAdmin\celery.py changed, reloading.
+2021-01-20 16:40:02,836 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 17:00:27,320 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\fccDjangoAdmin\celery.py changed, reloading.
+2021-01-20 17:00:30,863 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 17:03:58,243 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\fccDjangoAdmin\celery.py changed, reloading.
+2021-01-20 17:04:00,709 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 17:05:12,547 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 17:06:11,144 interview.performance 35 INFO     0.26399922370910645 /admin/interview/candidate/ {}
+2021-01-20 17:06:11,729 interview.performance 35 INFO     0.5420000553131104 /admin/interview/candidate/ {}
+2021-01-20 17:06:11,829 interview.performance 35 INFO     0.04099774360656738 /admin/jsi18n/ {}
+2021-01-20 17:09:47,407 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 17:09:56,411 interview.performance 35 INFO     0.375 /admin/ {}
+2021-01-20 17:09:57,049 interview.performance 35 INFO     0.4760003089904785 /admin/interview/candidate/ {}
+2021-01-20 17:09:57,101 interview.performance 35 INFO     0.024000883102416992 /admin/jsi18n/ {}
+2021-01-20 17:10:00,671 interview.performance 35 INFO     0.20699667930603027 /admin/interview/candidate/ {}
+2021-01-20 17:10:01,209 interview.performance 35 INFO     0.5200014114379883 /admin/interview/candidate/ {}
+2021-01-20 17:10:01,318 interview.performance 35 INFO     0.055999755859375 /admin/jsi18n/ {}
+2021-01-20 17:11:54,865 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\admin.py changed, reloading.
+2021-01-20 17:11:57,411 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-01-20 17:19:58,949 interview.performance 35 INFO     0.33699846267700195 /admin/ {}
+2021-01-20 17:19:59,715 interview.performance 35 INFO     0.548999547958374 /admin/interview/candidate/ {}
+2021-01-20 17:19:59,772 interview.performance 35 INFO     0.024999380111694336 /admin/jsi18n/ {}
+2021-01-20 17:20:05,365 interview.performance 35 INFO     0.20299649238586426 /admin/interview/candidate/ {}
+2021-01-20 17:20:05,817 interview.performance 35 INFO     0.43900060653686523 /admin/interview/candidate/ {}
+2021-01-20 17:20:05,878 interview.performance 35 INFO     0.020000219345092773 /admin/jsi18n/ {}
+2021-01-21 18:05:43,347 interview.performance 35 INFO     0.24499940872192383 /admin/ {}
+2021-01-21 18:05:44,028 interview.performance 35 INFO     0.4659996032714844 /admin/interview/candidate/ {}
+2021-01-21 18:05:44,086 interview.performance 35 INFO     0.017998218536376953 /admin/jsi18n/ {}
+2021-01-26 15:22:24,343 interview.performance 35 INFO     0.3900001049041748 /admin/ {}
+2021-01-26 15:22:24,518 interview.performance 35 INFO     0.14400172233581543 /admin/ {}
+2021-01-26 15:22:26,569 interview.performance 35 INFO     0.5370004177093506 /admin/interview/candidate/ {}
+2021-01-26 15:22:26,655 interview.performance 35 INFO     0.03200054168701172 /admin/jsi18n/ {}
+2021-01-26 15:22:28,751 interview.performance 35 INFO     0.49399805068969727 /admin/interview/candidate/5/change/ {}
+2021-01-26 15:22:28,814 interview.performance 35 INFO     0.02700018882751465 /admin/jsi18n/ {}
+2021-02-01 15:03:19,380 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\tasks.py changed, reloading.
+2021-02-01 15:03:24,207 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-01 15:03:48,149 django.utils.autoreload 240 INFO     C:\Users\86181\Desktop\myword\ÄûÃÊ°à¿Î³Ì\fccDjangoAdmin\interview\tasks.py changed, reloading.
+2021-02-01 15:03:50,682 django.utils.autoreload 617 INFO     Watching for file changes with StatReloader
+2021-02-01 16:56:35,180 interview.performance 35 INFO     0.259998083114624 /admin/ {}
+2021-02-01 16:56:35,508 interview.performance 35 INFO     0.08399772644042969 /admin/ {}
+2021-02-01 16:56:41,566 interview.performance 35 INFO     0.5199999809265137 /admin/interview/candidate/ {}
+2021-02-01 16:56:41,627 interview.performance 35 INFO     0.029997587203979492 /admin/jsi18n/ {}
+2021-02-01 16:56:45,401 interview.performance 35 INFO     0.13701391220092773 /admin/jobs/job/ {}
+2021-02-01 16:56:45,443 interview.performance 35 INFO     0.02101874351501465 /admin/jsi18n/ {}

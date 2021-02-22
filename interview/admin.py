@@ -10,6 +10,7 @@ from interview.models import Candidate
 from datetime import datetime
 from interview import candidate_fields as cf
 from interview import dingtalk as dd
+from .tasks import send_dingtalk_message
 
 import logging
 # Register your models here.
@@ -67,7 +68,7 @@ def notify_interviewer(request, queryset, interviewer):
     # 这里的消息发送到钉钉， 或者通过 Celery 异步发送到钉钉
     # send ("候选人 %s 进入面试环节，亲爱的面试官，请准备好面试： %s" % (candidates, interviewers))
     interviewers = "; ".join(list(set(interviewers)))
-    dd.send("候选人 %s 进入面试环节，亲爱的面试官，请准备好面试： %s" % (candidates, interviewers))
+    send_dingtalk_message.delay("候选人 %s 进入面试环节，亲爱的面试官，请准备好面试： %s" % (candidates, interviewers))
     messages.add_message(request, messages.INFO, '已经成功发送面试通知')
 
 
@@ -83,6 +84,22 @@ def notify_interviewer_second(modeladmin, request, queryset):
 
 notify_interviewer_first.short_description = u'通知一面面试官'
 notify_interviewer_second.short_description = u'通知二面面试官'
+
+
+# # 通知一面面试官面试
+# def notify_interviewer(modeladmin, request, queryset):
+#     candidates = ""
+#     interviewers = ""
+#     for obj in queryset:
+#         candidates = obj.username + ";" + candidates
+#         interviewers = obj.first_interviewer_user.username + ";" + interviewers
+#     # 这里的消息发送到钉钉， 或者通过 Celery 异步发送到钉钉
+#     #send ("候选人 %s 进入面试环节，亲爱的面试官，请准备好面试： %s" % (candidates, interviewers) )
+#     send_dingtalk_message.delay("候选人 %s 进入面试环节，亲爱的面试官，请准备好面试： %s" % (candidates, interviewers) )
+#     messages.add_message(request, messages.INFO, '已经成功发送面试通知')
+#
+#
+# notify_interviewer.short_description = u'通知一面面试官'
 
 
 class CandidateAdmin(admin.ModelAdmin):
@@ -104,8 +121,9 @@ class CandidateAdmin(admin.ModelAdmin):
 
     # 对于表单数据可以操作action
     actions = (export_model_as_csv, notify_interviewer_first, notify_interviewer_second)
+    # actions = (export_model_as_csv, notify_interviewer, )
 
-    # 检验用户是否拥有导入权限
+    # 检验用户是否拥有导出权限
     def has_export_permission(self, request):
         opts = self.opts
         return request.user.has_perm("{}.{}".format(opts.app_label, "export"))

@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import pymysql  # 导入第三方模块，用来操作mysql数据库
 import os
 from pathlib import Path
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
 
 pymysql.version_info = (1, 4, 13, "final", 0)
 
@@ -49,6 +51,8 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    # 'interview.performance.performance_logger_middleware', #记录性能的中间件
+    'interview.performance.PerformanceAndExceptionLoggerMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -200,3 +204,13 @@ DINGTALK_WEB_HOOK = "https://oapi.dingtalk.com/robot/send?access_token=c193d8cdb
 # MyProject.settings.py 里面设置MEDIA_ROOT and MEDIA_URL
 MEDIA_ROOT = os.path.join(BASE_DIR, 'upload/')
 MEDIA_URL = '/upload/'  # 这个是在浏览器上访问该上传文件的url的前缀
+
+
+sentry_sdk.init(
+    dsn="http://3b3982614bb24441aeeb6b0af0886dc1@172.25.17.134:9000/2",
+    integrations=[DjangoIntegration()],
+
+    # If you wish to associate users to errors (assuming you are using
+    # django.contrib.auth) you may enable sending PII data.
+    send_default_pii=True
+)
